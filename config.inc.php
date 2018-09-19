@@ -32,6 +32,7 @@ $cfg['Servers'][$i]['host'] = getenv('MYSQL_DB_HOST');
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
+$cfg['ExecTimeLimit'] = 0;
 /**
  * phpMyAdmin configuration storage settings.
  */
